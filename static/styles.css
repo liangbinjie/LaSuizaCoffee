@@ -1,0 +1,22 @@
+.navbar {
+    background-color: rgb(83, 25, 36) !important;
+}
+
+.hero {
+    background-color: rgb(25, 23, 23);
+    height: 90vh;
+}
+
+.divider {
+    background-color: rgb(83, 25, 36);
+    color: white;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-us {
+    background-color: rgb(203, 244, 255);
+}
