@@ -23,12 +23,16 @@
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="static/img/logo.png" alt="La Suiza Coffee Logo" width="60"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class='bx bx-menu' style='color:#ffffff'  ></i>
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Nosotros</a>
@@ -44,10 +48,12 @@
     </header>
 
     <main>
+        <!-- HERO -->
         <div class="hero">
             <video src=""></video>
         </div>
-    
+        
+        <!-- DIVIDER -->
         <div class="divider container-fluid text-center">
             <div class="rol">
                 <div class="col">
@@ -56,6 +62,7 @@
             </div>
         </div>
 
+        <!-- ABOUT US SECTION -->
         <section class="about-us container-fluid p-0">
             <div class="row g-0">
                 <div class="col-lg">
@@ -63,15 +70,17 @@
                     
                 </div>
                 <div class="col-lg d-flex justify-content-center align-items-center">
-                    <div class="text-center my-5">
+                    <div class="text-center m-5">
                         <h3>SOBRE NOSOTROS</h3>
+                        <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias a asperiores voluptatibus, aut assumenda eaque nostrum possimus non officia delectus.</p>
-                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-primary mt-5">APRENDER MAS</button>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- CARDS SECTION -->
         <div class="cards">
             
             <section>
@@ -79,8 +88,9 @@
                 <div class="col-lg d-flex justify-content-center align-items-center">
                   <div class="text-center m-5">
                     <h3>NUESTO MENU</h3>
+                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel dolorum minus deserunt, exercitationem dolor mollitia? Ea incidunt adipisci dolorum!</p>
-                    <button type="button" class="btn btn-primary">VER MENU</button>
+                    <button type="button" class="btn btn-primary mt-5">VER MENU</button>
                   </div>
                 </div>
                 <div class="col-lg">
@@ -97,8 +107,9 @@
                 <div class="col-lg d-flex justify-content-center align-items-center">
                   <div class="text-center m-5">
                     <h3>NOTICIAS</h3>
+                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel dolorum minus deserunt, exercitationem dolor mollitia? Ea incidunt adipisci dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, vitae.</p>
-                    <button type="button" class="btn btn-primary">NEWS</button>
+                    <button type="button" class="btn btn-primary mt-5">NEWS</button>
                   </div>
                 </div>
               </div>
@@ -109,8 +120,9 @@
                 <div class="col-lg d-flex justify-content-center align-items-center">
                   <div class="text-center m-5">
                     <h3>NUESTO MENU</h3>
+                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel dolorum minus deserunt, exercitationem dolor mollitia? Ea incidunt adipisci dolorum!</p>
-                    <button type="button" class="btn btn-primary">VER MENU</button>
+                    <button type="button" class="btn btn-primary mt-5">VER MENU</button>
                   </div>
                 </div>
                 <div class="col-lg">
@@ -127,8 +139,9 @@
                 <div class="col-lg d-flex justify-content-center align-items-center">
                   <div class="text-center m-5">
                     <h3>NOTICIAS</h3>
+                    <hr>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel dolorum minus deserunt, exercitationem dolor mollitia? Ea incidunt adipisci dolorum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, vitae.</p>
-                    <button type="button" class="btn btn-primary">NEWS</button>
+                    <button type="button" class="btn btn-primary mt-5">NEWS</button>
                   </div>
                 </div>
               </div>
@@ -136,14 +149,32 @@
 
         </div>
         
-
-        <div class="carousel">
-
+        <!-- CAROUSEL -->
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000" >
+              <img src="static/img/pinto.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="static/img/sandwich.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="static/img/cheesecake.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
 
-        <div class="reservations"></div>
+        <div class="gallery">
 
-        <div class="gallery"></div>
+        </div>
 
         <section class="newsletter"></section>
     </main>
