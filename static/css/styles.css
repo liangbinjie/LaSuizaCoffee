@@ -20,3 +20,8 @@
 .about-us {
     background-color: rgb(203, 244, 255);
 }
+
+footer {
+    background: url("../img/coffee.jpg") center center/cover;
+    color: white;
+}
