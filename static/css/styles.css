@@ -18,10 +18,35 @@
 
 
 .about-us {
-    background-color: rgb(203, 244, 255);
+    background-color: rgb(193, 242, 255);
 }
 
 footer {
     background: url("../img/coffee.jpg") center center/cover;
     color: white;
+}
+
+.site-btn {
+    background-color: #851526; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white
+}
+
+.site-btn:hover {
+    background-color:rgb(255, 79, 112);
+}
+
+.location {
+    margin: 0 auto
+}
+
+.waze-btn {
+    background-color: #0586DD;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    padding: 10px 20px;
 }
