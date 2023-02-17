@@ -17,9 +17,9 @@
   
   1. Como cliente, quiero poder ver el menú completo en línea, incluyendo precios y descripciones de los platillos, para poder hacer una selección informada antes de visitar el restaurante.
 
-  2. Como cliente, quiero poder hacer una reservación en línea con facilidad y recibir una confirmación por correo electrónico.
+  2. Como cliente, quiero poder hacer una reservación en línea con facilidad y recibir una confirmación por correo electrónico. (API Twilio, por confirmar por el dueño del negocio)
 
-  3. Como cliente con dietas especiales, quiero poder filtrar los platillos disponibles en el menú para ver solo aquellos que son aptos para mi dieta.
+  3. Como cliente con dietas especiales, quiero poder filtrar los platillos disponibles en el menú para ver solo aquellos que son aptos para mi dieta. (En espera)
 
   4. Como dueño del restaurante, quiero poder actualizar el menú y los precios de manera fácil y rápida en la página web.
 
