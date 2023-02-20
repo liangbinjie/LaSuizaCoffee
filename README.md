@@ -1,6 +1,6 @@
 # La Suiza Coffee
 ###### Java SpringBoot Development
-
+[Presentacion](https://docs.google.com/presentation/d/1qjrwClsVTaNcYfliG0B8iwFeLoXz7heO3qbhRfigCsU/edit?usp=sharing)
 
 ## Tecnologias - Tematicas
 
@@ -19,7 +19,7 @@
 
   2. Como cliente, quiero poder hacer una reservación en línea con facilidad y recibir una confirmación por correo electrónico. (API Twilio, por confirmar por el dueño del negocio)
 
-  3. Como cliente con dietas especiales, quiero poder filtrar los platillos disponibles en el menú para ver solo aquellos que son aptos para mi dieta. (En espera)
+  3. Como empleado usuario, quiero poder facturar la comida que piden los clientes y escoger si dar una factura simple o completa.
 
   4. Como dueño del restaurante, quiero poder actualizar el menú y los precios de manera fácil y rápida en la página web.
 
@@ -34,3 +34,4 @@
   9. Como dueño del restaurante, quiero poder anunciar eventos especiales y promociones en la página web.
 
   10. Como dueño del restaurante, quiero que solo los administradores puedan modificar el contenido de la página.
+
